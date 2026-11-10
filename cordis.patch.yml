@@ -1,0 +1,11 @@
+# Derived from dsh-purge Community's Cordis registration. No host identity,
+# sandbox, approvals, hooks-deny, or redteam modifications.
+- insert:
+    - id: dsh-purge-focus
+      name: dsh-purge-focus
+      inject: [systemPrompt]
+      config:
+        enabled: true
+        refusalRetry: true
+        maxBufferChars: 450
+        assistantStyle: true
